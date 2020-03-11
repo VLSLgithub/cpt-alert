@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+node_modules/
+bower_components/
+*.zip
+packaged/
+package-lock.json
+core/test-data/*
