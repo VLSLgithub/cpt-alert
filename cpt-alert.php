@@ -237,7 +237,7 @@ final class CPTAlert {
 			'vl-alerts',
 			VL_CPT_Alert_Plugin_URL . 'assets/dist/js/script.js',
 			array( 'jquery' ),
-			defined( 'WP_DEBUG' ) && WP_DEBUG ? time() : CPTALERT_VERSION,
+			defined( 'WP_DEBUG' ) && WP_DEBUG ? time() : VL_CPT_Alert_Plugin_VER,
 			true
 		);
 
