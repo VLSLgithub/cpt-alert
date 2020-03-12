@@ -7,7 +7,7 @@
  * Version: 1.0.0
  * Text Domain: vl-cpt-alert
  * GitHub Plugin URI: VLSLgithub/cpt-alert
- * GitHub Branch: master
+ * GitHub Branch: develop
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
