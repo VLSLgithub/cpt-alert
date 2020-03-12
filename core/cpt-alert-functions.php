@@ -2,7 +2,7 @@
 /**
  * Provides helper functions.
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  *
  * @package    CPTAlert
  * @subpackage CPTAlert/core
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Returns the main plugin object
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  *
  * @return CPTAlert
  */
@@ -26,7 +26,7 @@ function CPTALERT() {
 /**
  * Gets the default args for retrieving/showing alerts.
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  *
  * @return array
  */
@@ -68,7 +68,7 @@ function vl_get_alerts_default_args() {
 	/**
 	 * This Filter runs before any Ajax occurs, so you still have access to $wp_query
 	 * 
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	return apply_filters( 'vl_get_alerts_default_args', $args );
 	
@@ -77,7 +77,7 @@ function vl_get_alerts_default_args() {
 /**
  * Individual alert default args.
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  *
  * @return array
  */
@@ -86,7 +86,7 @@ function vl_alert_default_args() {
 	/**
 	 * Filters the default alert args.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	return apply_filters( 'vl_alert_default_args', array(
 		'post_ID'          => 0,
@@ -107,7 +107,7 @@ function vl_alert_default_args() {
 /**
  * Retrieves alerts.
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  *
  * @param array $args
  *
@@ -317,7 +317,7 @@ function vl_get_alerts( $args = array() ) {
 	/**
 	 * Alerts to be shown.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	$alerts = apply_filters( 'vl_alerts_show_alerts', $alerts );
 
@@ -368,7 +368,7 @@ function vl_get_alerts( $args = array() ) {
 	/**
 	 * Alerts to be shown.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	$alerts = apply_filters( 'vl_alerts_show_alerts', $alerts );
 
@@ -434,7 +434,7 @@ function vl_show_top_alerts( $args = array() ) {
 /**
  * Outputs alert container HTML.
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  *
  * @param array $args
  */

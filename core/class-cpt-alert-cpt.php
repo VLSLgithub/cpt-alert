@@ -2,7 +2,7 @@
 /**
  * Creates and manages the Alert CPT.
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  *
  * @package    CPTAlert
  * @subpackage CPTAlert/core
@@ -53,7 +53,7 @@ class CPTAlert_CPT {
 	/**
 	 * Creates the CPT.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	function _create_cpt() {
 

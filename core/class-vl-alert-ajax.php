@@ -2,7 +2,7 @@
 /**
  * Alert AJAX.
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  * @package CPT_Alert
  */
 
@@ -16,14 +16,14 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * Handles all AJAX requests for alerts.
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  */
 class VL_Alert_AJAX {
 
 	/**
 	 * VL_Alert_AJAX constructor.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	function __construct() {
 
@@ -42,7 +42,7 @@ class VL_Alert_AJAX {
 	/**
 	 * Gets the alerts via AJAX.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 * @access private
 	 */
 	function ajax_get_alerts( $request ) {

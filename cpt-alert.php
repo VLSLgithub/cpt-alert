@@ -4,7 +4,7 @@
  * Description: Creates the "Alert" CPT.
  * Author: Real Big Marketing
  * Author URI: https://realbigmarketing.com/
- * Version: 0.1.0
+ * Version: 1.0.0
  * Text Domain: vl-cpt-alert
  * GitHub Plugin URI: VLSLgithub/cpt-alert
  * GitHub Branch: master
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * Initiates the plugin.
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  *
  * @package CPTAlert
  */
@@ -30,13 +30,13 @@ final class CPTAlert {
 
 	/**
 	 * @var			array $plugin_data Holds Plugin Header Info
-	 * @since		{{VERSION}}
+	 * @since		1.0.0
 	 */
 	public $plugin_data;
 	
 	/**
 	 * @var			array $admin_errors Stores all our Admin Errors to fire at once
-	 * @since		{{VERSION}}
+	 * @since		1.0.0
 	 */
 	private $admin_errors;
 
@@ -47,7 +47,7 @@ final class CPTAlert {
 	/**
 	 * Returns the *Singleton* instance of this class.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 *
 	 * @staticvar Singleton $instance The *Singleton* instances of this class.
 	 *
@@ -67,7 +67,7 @@ final class CPTAlert {
 	/**
 	 * Initializes the plugin.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	protected function __construct() {
 
@@ -108,7 +108,7 @@ final class CPTAlert {
 	 * Setup plugin constants
 	 *
 	 * @access	  private
-	 * @since	  {{VERSION}}
+	 * @since	  1.0.0
 	 * @return	  void
 	 */
 	private function setup_constants() {
@@ -147,7 +147,7 @@ final class CPTAlert {
 	 * Internationalization
 	 *
 	 * @access	  private 
-	 * @since	  {{VERSION}}
+	 * @since	  1.0.0
 	 * @return	  void
 	 */
 	private function load_textdomain() {
@@ -183,7 +183,7 @@ final class CPTAlert {
 	/**
 	 * Requires necessary base files.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	public function require_necessities() {
 
@@ -199,7 +199,7 @@ final class CPTAlert {
 	/**
 	 * Adds global, base functionality actions.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	private function add_base_actions() {
 
@@ -211,7 +211,7 @@ final class CPTAlert {
 	 * Show admin errors.
 	 * 
 	 * @access	  public
-	 * @since	  {{VERSION}}
+	 * @since	  1.0.0
 	 * @return	  HTML
 	 */
 	public function admin_errors() {
@@ -229,7 +229,7 @@ final class CPTAlert {
 	/**
 	 * Registers the plugin's assets.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	function _register_assets() {
 
@@ -250,7 +250,7 @@ final class CPTAlert {
 	/**
 	 * Enqueues the plugin's assets.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	function _enqueue_assets() {
 
@@ -262,7 +262,7 @@ final class CPTAlert {
  * The main function responsible for returning the one true CPTAlert
  * instance to functions everywhere
  *
- * @since	  {{VERSION}}
+ * @since	  1.0.0
  * @return	  void
  */
 add_action( 'plugins_loaded', 'vl_cpt_alert_plugin_load' );
